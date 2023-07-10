@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="" />
+    <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/CaptureHelpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/TestScreenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/ExcelHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/ExcelHelper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/ExcelHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/ExcelHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,38 +64,10 @@
       <recent name="D:\AnhTester\SeleniumTestNGParallel\src\test\resources\configs" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="CustomersTest.addNewCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.CustomersTest" />
-      <option name="METHOD_NAME" value="addNewCustomer" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestScreenshot.testHomePage2">
     <configuration name="D:/AnhTester/SeleniumTestNGParallel/src/test-suites/Para.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/Para.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/LoginTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/LoginTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -129,13 +110,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestScreenshot.testHomePage1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.TestScreenshot" />
+      <option name="METHOD_NAME" value="testHomePage1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestScreenshot.testHomePage2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.TestScreenshot" />
+      <option name="METHOD_NAME" value="testHomePage2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestScreenshot.testHomePage2" />
+        <item itemvalue="TestNG.TestScreenshot.testHomePage1" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.loginPageSuccess" />
         <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNGParallel/src/test-suites/Para.xml" />
-        <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNG/SeleniumTestNG/src/test-suites/LoginTest.xml" />
-        <item itemvalue="TestNG.CustomersTest.addNewCustomer" />
       </list>
     </recent_temporary>
   </component>
