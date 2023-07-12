@@ -6,6 +6,7 @@ import SeleniumTestNGPOM.pages.customers.CustomerDetailPage;
 import SeleniumTestNGPOM.pages.customers.CustomersPage;
 import SeleniumTestNGPOM.pages.DashboardPage;
 import SeleniumTestNGPOM.pages.login.LoginPage;
+import helpers.CaptureHelpers;
 import keyword.WebUI;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,8 @@ public class CustomersTest extends BaseTest {
     CustomerDetailPage customerDetailPage;
     @Test
     public void addNewCustomer(){
-        String CUSTOMER_NAME = "Hoang";
+        CaptureHelpers.startRecord("addNewCustomer");
+        String CUSTOMER_NAME = "Lien";
         loginPage = new LoginPage();
         dashboardPage = loginPage.pageLoginSuccess("admin@example.com","123456");
         customersPage = dashboardPage.openCustomerPage();
@@ -28,6 +30,7 @@ public class CustomersTest extends BaseTest {
         customersPage.searchRecordAddNew(CUSTOMER_NAME);
         customerDetailPage = customersPage.clickCustomerDetail();
         customerDetailPage.checkCustomerDetail(CUSTOMER_NAME);
+        CaptureHelpers.stopRecord();
     }
 
 }

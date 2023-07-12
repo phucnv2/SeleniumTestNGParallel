@@ -7,6 +7,7 @@ import helpers.ExcelHelper;
 import helpers.PropertiesHelper;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import utils.LogUtils;
 
 public class LoginTest extends BaseTest {
     LoginPage loginPage; // khai báo loginPage từ package pages
@@ -53,6 +54,7 @@ public class LoginTest extends BaseTest {
     public void loginPageSuccess1() {
         //Khởi tạo đối tượng từ trang login
         // truyền driver từ BaseTest
+        LogUtils.info("Phúc");
         loginPage = new LoginPage();
         ExcelHelper excelHelper = new ExcelHelper();
         excelHelper.setExcelFile("src/test/resources/datatest/Crm.xlsx","Login");
