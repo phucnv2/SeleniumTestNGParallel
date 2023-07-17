@@ -1,5 +1,6 @@
 package keyword;
 
+import com.aventstack.extentreports.Status;
 import com.ibm.icu.impl.Assert;
 import drivers.DriverManager;
 import io.appium.java_client.functions.ExpectedCondition;
@@ -8,6 +9,7 @@ import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import reports.ExtentTestManager;
 
 import java.time.Duration;
 import java.util.List;
@@ -23,6 +25,7 @@ public class WebUI {
         Actions actions = new Actions(getDriver());
         actions.moveToElement(getWebElement(by));
         logConsole("Hover on Element" + by);
+        ExtentTestManager.logMessage(Status.PASS,"Hover on Element" + by);
     }
 
     public static WebElement highLightElement(By by) {
@@ -40,6 +43,7 @@ public class WebUI {
         Actions actions = new Actions(getDriver());
         actions.contextClick(getWebElement(by));
         logConsole("Click mouse right" + by);
+        ExtentTestManager.logMessage(Status.PASS,"Click mouse right" + by);
     }
 
     public static void logConsole(String message) {
@@ -50,11 +54,14 @@ public class WebUI {
         getDriver().get(URL);
         waitForPageLoaded();
         logConsole("Mở URL" + URL);
+        ExtentTestManager.logMessage(Status.PASS,"Mở URL" + URL);
     }
 
     public static String getCurrentUrl() {
         waitForPageLoaded();
         logConsole("Lấy URL" + getDriver().getCurrentUrl());
+        ExtentTestManager.logMessage(Status.PASS,"Lấy URL" + getDriver().getCurrentUrl());
+
         return getDriver().getCurrentUrl();
     }
 
@@ -67,24 +74,32 @@ public class WebUI {
         highLightElement(by);
         getWebElement(by).click();
         logConsole("Click on element" + by);
+        ExtentTestManager.logMessage(Status.PASS,"Click on element" + by);
+
     }
 
     public static void senkeyText(By by, String value) {
         waitForElementVisible(by);
         getWebElement(by).sendKeys(value);
         logConsole("Set text" + value + " on element " + by);
+        ExtentTestManager.logMessage(Status.PASS,"Set text" + value + " on element " + by);
+
     }
 
     public static String getTextElement(By by) {
         waitForElementVisible(by);
         logConsole("Hiển thị text element " + by);
         logConsole("=> Text: " + getWebElement(by).getText());
+        ExtentTestManager.logMessage(Status.PASS,"Hiển thị text element " + by);
+        ExtentTestManager.logMessage(Status.INFO,"=> Text: " + getWebElement(by).getText());
         return getWebElement(by).getText();
     }
 
     public static String getAttribute(By by, String attributeName) {
         logConsole("Hiển thị giá trị element " + by);
         logConsole("=> Value: " + getWebElement(by).getAttribute(attributeName));
+        ExtentTestManager.logMessage(Status.PASS,"Hiển thị giá trị element " + by);
+        ExtentTestManager.logMessage(Status.INFO,"=> Value: " + getWebElement(by).getAttribute(attributeName));
         return getWebElement(by).getAttribute(attributeName);
     }
 

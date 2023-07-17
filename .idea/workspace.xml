@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/reports/ExtentReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reports/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/listeners/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app-properties.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extentreport/extentreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentreport/extentreport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/keyword/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keyword/WebUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test-suites/LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-suites/LoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/listeners/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/datatest/Crm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datatest/Crm.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,24 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AnhTester/SeleniumTestNGParallel/src/test/resources/configs&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.16639479&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/AnhTester/Learn/SeleniumMaven042023",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.16639479"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AnhTester\SeleniumTestNGParallel\src\test\resources\configs" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginPageSuccess">
+  <component name="RunManager" selected="TestNG.D:/AnhTester/SeleniumTestNGParallel/src/test-suites/LoginTest.xml">
     <configuration name="CustomersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
@@ -150,9 +147,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginPageSuccess" />
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNGParallel/src/test-suites/LoginTest.xml" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.loginPageSuccess" />
         <item itemvalue="TestNG.LoginTest.loginPageSuccess1" />
         <item itemvalue="TestNG.CustomersTest" />
       </list>
