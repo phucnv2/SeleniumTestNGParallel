@@ -1,1 +1,50 @@
 [INFO] 13-07-2023 00:56:13 [main] LogUtils - Phúc
+[INFO] 15-07-2023 00:00:48 [main] LogUtils - Phúc
+[INFO] 15-07-2023 00:01:10 [main] LogUtils - Phúc
+[INFO] 15-07-2023 00:02:17 [main] LogUtils - Phúc
+[INFO] 15-07-2023 00:03:00 [main] LogUtils - Phúc
+[INFO] 15-07-2023 00:03:16 [main] LogUtils - Phúc
+[INFO] 15-07-2023 00:13:51 [main] LogUtils - Running test case loginPageSuccess
+[INFO] 15-07-2023 00:13:51 [main] LogUtils - Phúc
+[INFO] 15-07-2023 00:14:07 [main] LogUtils - Test case loginPageSuccess is passed.
+[INFO] 15-07-2023 00:14:09 [main] LogUtils - Running test case loginPageSuccess1
+[INFO] 15-07-2023 00:14:09 [main] LogUtils - Phúc
+[INFO] 15-07-2023 00:14:25 [main] LogUtils - Test case loginPageSuccess1 is passed.
+[INFO] 15-07-2023 00:14:26 [main] LogUtils - End testing Test
+[INFO] 15-07-2023 00:15:11 [TestNG-test=Login test chorme-2] LogUtils - Running test case loginPageSuccess1
+[INFO] 15-07-2023 00:15:11 [TestNG-test=Login test chorme-1] LogUtils - Running test case loginPageSuccess
+[INFO] 15-07-2023 00:15:11 [TestNG-test=Login test chorme-2] LogUtils - Phúc
+[INFO] 15-07-2023 00:15:11 [TestNG-test=Login test chorme-1] LogUtils - Phúc
+[INFO] 15-07-2023 00:15:28 [TestNG-test=Login test chorme-1] LogUtils - Test case loginPageSuccess is passed.
+[INFO] 15-07-2023 00:15:28 [TestNG-test=Login test chorme-2] LogUtils - Test case loginPageSuccess1 is passed.
+[INFO] 15-07-2023 00:15:30 [main] LogUtils - End testing Login test chorme
+[INFO] 16-07-2023 23:08:14 [main] LogUtils - Running test case loginPageSuccess
+[INFO] 16-07-2023 23:08:15 [main] LogUtils - Phúc
+[INFO] 16-07-2023 23:10:03 [main] LogUtils - Test case loginPageSuccess is passed.
+[INFO] 16-07-2023 23:10:05 [main] LogUtils - Running test case loginPageSuccess1
+[INFO] 16-07-2023 23:10:05 [main] LogUtils - Phúc
+[ERROR] 16-07-2023 23:10:07 [main] LogUtils - Test case loginPageSuccess1 is failed.
+[ERROR] 16-07-2023 23:10:07 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0de462289ce99cbe3163a7fd5d06147e, executeScript {script=return document.readyState, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Onlap.vn\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52733/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0de462289ce99cbe3163a7fd5d06147e
+[ERROR] 16-07-2023 23:10:07 [main] LogUtils - Test case loginPageSuccess1 is failed.
+[ERROR] 16-07-2023 23:10:07 [main] LogUtils - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0de462289ce99cbe3163a7fd5d06147e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Onlap.vn\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52733/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0de462289ce99cbe3163a7fd5d06147e
+[INFO] 16-07-2023 23:10:07 [main] LogUtils - End testing SeleniumTestNGParallel
+[INFO] 17-07-2023 00:06:10 [main] LogUtils - Running test case loginPageSuccess
+[INFO] 17-07-2023 00:06:10 [main] LogUtils - Phúc
+[INFO] 17-07-2023 00:06:26 [main] LogUtils - Test case loginPageSuccess is passed.
+[INFO] 17-07-2023 00:06:28 [main] LogUtils - End testing SeleniumTestNGParallel

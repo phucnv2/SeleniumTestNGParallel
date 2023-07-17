@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/LogUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reports/ExtentReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reports/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/listeners/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app-properties.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/null.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testHomePage1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/testHomePage2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/CaptureHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/CaptureHelpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/CustomersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/CustomersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test-suites/LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-suites/LoginTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/datatest/Crm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datatest/Crm.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helpers/CaptureHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helpers/CaptureHelpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/CustomersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/CustomersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <recent name="D:\AnhTester\SeleniumTestNGParallel\src\test\resources\configs" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginPageSuccess1">
+  <component name="RunManager" selected="TestNG.LoginTest.loginPageSuccess">
     <configuration name="CustomersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
@@ -87,6 +85,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D:/AnhTester/SeleniumTestNGParallel/src/test-suites/LoginTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/LoginTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <extension name="coverage">
@@ -98,6 +106,24 @@
       <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginPageSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.LoginTest" />
+      <option name="METHOD_NAME" value="loginPageSuccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -122,49 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScreenshot.testHomePage1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.TestScreenshot" />
-      <option name="METHOD_NAME" value="testHomePage1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestScreenshot.testHomePage2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.TestScreenshot" />
-      <option name="METHOD_NAME" value="testHomePage2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.loginPageSuccess" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNGParallel/src/test-suites/LoginTest.xml" />
         <item itemvalue="TestNG.LoginTest.loginPageSuccess1" />
         <item itemvalue="TestNG.CustomersTest" />
-        <item itemvalue="TestNG.TestScreenshot.testHomePage2" />
-        <item itemvalue="TestNG.TestScreenshot.testHomePage1" />
-        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
