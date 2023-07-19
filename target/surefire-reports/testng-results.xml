@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-17T23:25:41 ICT" name="Suite" finished-at="2023-07-17T23:26:06 ICT" duration-ms="24910">
+    <groups>
+    </groups>
+    <test started-at="2023-07-17T23:25:41 ICT" name="Login test chorme" finished-at="2023-07-17T23:26:06 ICT" duration-ms="24910">
+      <class name="SeleniumTestNGPOM.testcases.LoginTest">
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:SeleniumTestNGPOM.testcases.LoginTest@51dbd6e4]" started-at="2023-07-17T23:25:41 ICT" name="createDriver" finished-at="2023-07-17T23:25:47 ICT" duration-ms="5222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="createDriver(java.lang.String)[pri:0, instance:SeleniumTestNGPOM.testcases.LoginTest@51dbd6e4]" started-at="2023-07-17T23:25:41 ICT" name="createDriver" finished-at="2023-07-17T23:25:47 ICT" duration-ms="5205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="loginPageSuccess()[pri:6, instance:SeleniumTestNGPOM.testcases.LoginTest@51dbd6e4]" started-at="2023-07-17T23:25:47 ICT" name="loginPageSuccess" finished-at="2023-07-17T23:26:05 ICT" duration-ms="18664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSuccess -->
+        <test-method signature="loginPageSuccess1()[pri:7, instance:SeleniumTestNGPOM.testcases.LoginTest@51dbd6e4]" started-at="2023-07-17T23:25:47 ICT" name="loginPageSuccess1" finished-at="2023-07-17T23:26:05 ICT" duration-ms="18664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageSuccess1 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SeleniumTestNGPOM.testcases.LoginTest@51dbd6e4]" started-at="2023-07-17T23:26:05 ICT" name="closeDriver" finished-at="2023-07-17T23:26:06 ICT" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SeleniumTestNGPOM.testcases.LoginTest@51dbd6e4]" started-at="2023-07-17T23:26:05 ICT" name="closeDriver" finished-at="2023-07-17T23:26:06 ICT" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- SeleniumTestNGPOM.testcases.LoginTest -->
+    </test> <!-- Login test chorme -->
+  </suite> <!-- Suite -->
+</testng-results>

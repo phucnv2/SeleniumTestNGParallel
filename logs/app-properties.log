@@ -111,3 +111,17 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Onlap.vn\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58234/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: c2b95e513694682a09906e79ecc6e3b9
 [INFO] 17-07-2023 22:55:29 [main] LogUtils - End testing Login test chorme
+[INFO] 17-07-2023 23:21:56 [TestNG-test=Login test chorme-2] LogUtils - Running test case loginPageSuccess1
+[INFO] 17-07-2023 23:21:56 [TestNG-test=Login test chorme-1] LogUtils - Running test case loginPageSuccess
+[INFO] 17-07-2023 23:21:57 [TestNG-test=Login test chorme-2] LogUtils - Phúc
+[INFO] 17-07-2023 23:21:57 [TestNG-test=Login test chorme-1] LogUtils - Phúc
+[INFO] 17-07-2023 23:22:14 [TestNG-test=Login test chorme-1] LogUtils - Test case loginPageSuccess is passed.
+[INFO] 17-07-2023 23:22:14 [TestNG-test=Login test chorme-2] LogUtils - Test case loginPageSuccess1 is passed.
+[INFO] 17-07-2023 23:22:15 [main] LogUtils - End testing Login test chorme
+[INFO] 17-07-2023 23:25:48 [TestNG-test=Login test chorme-2] LogUtils - Running test case loginPageSuccess1
+[INFO] 17-07-2023 23:25:48 [TestNG-test=Login test chorme-1] LogUtils - Running test case loginPageSuccess
+[INFO] 17-07-2023 23:25:49 [TestNG-test=Login test chorme-2] LogUtils - Phúc
+[INFO] 17-07-2023 23:25:49 [TestNG-test=Login test chorme-1] LogUtils - Phúc
+[INFO] 17-07-2023 23:26:05 [TestNG-test=Login test chorme-2] LogUtils - Test case loginPageSuccess1 is passed.
+[INFO] 17-07-2023 23:26:05 [TestNG-test=Login test chorme-1] LogUtils - Test case loginPageSuccess is passed.
+[INFO] 17-07-2023 23:26:06 [main] LogUtils - End testing Login test chorme

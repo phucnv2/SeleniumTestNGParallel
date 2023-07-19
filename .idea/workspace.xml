@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/reports/AllureManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app-properties.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/extentreport/extentreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentreport/extentreport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/keyword/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keyword/WebUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test-suites/LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-suites/LoginTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/listeners/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/datatest/Crm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datatest/Crm.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/listeners/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/listeners/TestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/pages/login/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/pages/login/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +65,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AnhTester\SeleniumTestNGParallel\src\test\resources\configs" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
   </component>
   <component name="RunManager" selected="TestNG.D:/AnhTester/SeleniumTestNGParallel/src/test-suites/LoginTest.xml">
     <configuration name="CustomersTest" type="TestNG" temporary="true" nameIsGenerated="true">
