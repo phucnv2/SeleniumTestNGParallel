@@ -1,5 +1,6 @@
 package SeleniumTestNGPOM.common;
 
+import SeleniumTestNGPOM.listeners.TestListener;
 import drivers.DriverManager;
 import helpers.PropertiesHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -11,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
 import java.time.Duration;
-
+@Listeners(TestListener.class)
 public class BaseTest {
 
     @BeforeMethod

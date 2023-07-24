@@ -1,7 +1,9 @@
 SeleniumTestNGPOM\testcases\DashboardTest.class
 SeleniumTestNGPOM\pages\login\LoginPage.class
 SeleniumTestNGPOM\testcases\TestScreenshot.class
+SeleniumTestNGPOM\dataproviders\DataLogin.class
 SeleniumTestNGPOM\listeners\TestListener.class
+SeleniumTestNGPOM\testcases\TestDataProvider.class
 SeleniumTestNGPOM\pages\customers\CustomerDetailPage.class
 SeleniumTestNGPOM\common\BaseTest.class
 SeleniumTestNGPOM\pages\customers\AddCustomerPage.class

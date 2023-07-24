@@ -54,13 +54,13 @@ public class WebUI {
         getDriver().get(URL);
         waitForPageLoaded();
         logConsole("Mở URL" + URL);
-        ExtentTestManager.logMessage(Status.PASS,"Mở URL" + URL);
+        ExtentTestManager.logMessage(Status.PASS,"Mở URL: " + URL);
     }
 
     public static String getCurrentUrl() {
         waitForPageLoaded();
         logConsole("Lấy URL" + getDriver().getCurrentUrl());
-        ExtentTestManager.logMessage(Status.PASS,"Lấy URL" + getDriver().getCurrentUrl());
+        ExtentTestManager.logMessage(Status.PASS,"Lấy URL: " + getDriver().getCurrentUrl());
 
         return getDriver().getCurrentUrl();
     }
@@ -73,16 +73,16 @@ public class WebUI {
         waitForElementVisible(by);
         highLightElement(by);
         getWebElement(by).click();
-        logConsole("Click on element" + by);
-        ExtentTestManager.logMessage(Status.PASS,"Click on element" + by);
+        logConsole("Click on element: " + by);
+        ExtentTestManager.logMessage(Status.PASS,"Click on element: " + by);
 
     }
 
     public static void senkeyText(By by, String value) {
         waitForElementVisible(by);
         getWebElement(by).sendKeys(value);
-        logConsole("Set text" + value + " on element " + by);
-        ExtentTestManager.logMessage(Status.PASS,"Set text" + value + " on element " + by);
+        logConsole("Set text " + value + " on element " + by);
+        ExtentTestManager.logMessage(Status.PASS,"Set text " + value + " on element " + by);
 
     }
 
@@ -90,7 +90,7 @@ public class WebUI {
         waitForElementVisible(by);
         logConsole("Hiển thị text element " + by);
         logConsole("=> Text: " + getWebElement(by).getText());
-        ExtentTestManager.logMessage(Status.PASS,"Hiển thị text element " + by);
+        ExtentTestManager.logMessage(Status.PASS,"Hiển thị text element: " + by);
         ExtentTestManager.logMessage(Status.INFO,"=> Text: " + getWebElement(by).getText());
         return getWebElement(by).getText();
     }
@@ -98,7 +98,7 @@ public class WebUI {
     public static String getAttribute(By by, String attributeName) {
         logConsole("Hiển thị giá trị element " + by);
         logConsole("=> Value: " + getWebElement(by).getAttribute(attributeName));
-        ExtentTestManager.logMessage(Status.PASS,"Hiển thị giá trị element " + by);
+        ExtentTestManager.logMessage(Status.PASS,"Hiển thị giá trị element: " + by);
         ExtentTestManager.logMessage(Status.INFO,"=> Value: " + getWebElement(by).getAttribute(attributeName));
         return getWebElement(by).getAttribute(attributeName);
     }

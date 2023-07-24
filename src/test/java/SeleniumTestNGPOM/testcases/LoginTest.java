@@ -1,6 +1,7 @@
 package SeleniumTestNGPOM.testcases;
 
 import SeleniumTestNGPOM.common.BaseTest;
+import SeleniumTestNGPOM.dataproviders.DataLogin;
 import SeleniumTestNGPOM.listeners.TestListener;
 import SeleniumTestNGPOM.pages.login.LoginPage;
 import drivers.DriverManager;
@@ -45,15 +46,26 @@ public class LoginTest extends BaseTest {
 //        loginPage = new LoginPage();
 //        loginPage.pageLoginEmaiAndPasswordNull("", "");
 //    }
-//    @Test(priority = 7)
-//    public void loginPageSuccess() {
+
+    // DataProvider
+//    @Test(dataProvider = "dataLoginCRM",dataProviderClass = DataLogin.class)
+//    public void loginPageSuccess2(String email, String password) {
 //        //Khởi tạo đối tượng từ trang login
 //        // truyền driver từ BaseTest
 //        loginPage = new LoginPage();
 //        // gọi hàm login để dùng
-//        loginPage.pageLoginSuccess(PropertiesHelper.getValue("email"), PropertiesHelper.getValue("password"));
+//        loginPage.pageLoginSuccess(email,password);
 //    }
-    @Test(priority = 6)
+//    // Đọc từ file excel
+//    @Test(dataProvider = "data_provider_login_excel",dataProviderClass = DataLogin.class)
+//    public void loginPageSuccess3(String email, String password, String resuld) {
+//        //Khởi tạo đối tượng từ trang login
+//        // truyền driver từ BaseTest
+//        loginPage = new LoginPage();
+//        // gọi hàm login để dùng
+//        loginPage.pageLoginSuccess(email,password);
+//    }
+    @Test
     public void loginPageSuccess() {
         //Khởi tạo đối tượng từ trang login
         // truyền driver từ BaseTest
@@ -66,16 +78,16 @@ public class LoginTest extends BaseTest {
         loginPage.pageLoginSuccess(excelHelper.getCellData("EMAIL",1), excelHelper.getCellData("PASSWORD",1));
         excelHelper.setCellData("Pass",1,"RESULD");
     }
-    @Test(priority = 7)
-    public void loginPageSuccess1() {
-        //Khởi tạo đối tượng từ trang login
-        // truyền driver từ BaseTest
-        LogUtils.info("Phúc");
-        loginPage = new LoginPage();
-        ExcelHelper excelHelper = new ExcelHelper();
-        excelHelper.setExcelFile("src/test/resources/datatest/Crm.xlsx","Login");
-        // gọi hàm login để dùng
-        loginPage.pageLoginSuccess(excelHelper.getCellData("EMAIL",1), excelHelper.getCellData("PASSWORD",1));
-        excelHelper.setCellData("Pass",1,"RESULD");
-    }
+//    @Test
+//    public void loginPageSuccess1() {
+//        //Khởi tạo đối tượng từ trang login
+//        // truyền driver từ BaseTest
+//        LogUtils.info("Phúc");
+//        loginPage = new LoginPage();
+//        ExcelHelper excelHelper = new ExcelHelper();
+//        excelHelper.setExcelFile("src/test/resources/datatest/Crm.xlsx","Login");
+//        // gọi hàm login để dùng
+//        loginPage.pageLoginSuccess(excelHelper.getCellData("EMAIL",1), excelHelper.getCellData("PASSWORD",1));
+//        excelHelper.setCellData("Pass",1,"RESULD");
+//    }
 }

@@ -182,7 +182,7 @@ public class ExcelHelper {
                             data[i - 1][j] = cell.getStringCellValue();
                             break;
                         case NUMERIC:
-                            data[i - 1][j] = String.valueOf(cell.getNumericCellValue());
+                             data[i - 1][j] = String.valueOf(cell.getNumericCellValue());
                             break;
                         case BLANK:
                             data[i - 1][j] = cell.getStringCellValue();

@@ -125,3 +125,86 @@ Session ID: c2b95e513694682a09906e79ecc6e3b9
 [INFO] 17-07-2023 23:26:05 [TestNG-test=Login test chorme-2] LogUtils - Test case loginPageSuccess1 is passed.
 [INFO] 17-07-2023 23:26:05 [TestNG-test=Login test chorme-1] LogUtils - Test case loginPageSuccess is passed.
 [INFO] 17-07-2023 23:26:06 [main] LogUtils - End testing Login test chorme
+[INFO] 20-07-2023 00:11:20 [TestNG-PoolService-2] LogUtils - Running test case loginPageSuccess2
+[INFO] 20-07-2023 00:11:20 [TestNG-PoolService-1] LogUtils - Running test case loginPageSuccess2
+[INFO] 20-07-2023 00:11:20 [TestNG-PoolService-0] LogUtils - Running test case loginPageSuccess2
+[ERROR] 20-07-2023 00:11:24 [TestNG-PoolService-2] LogUtils - Test case loginPageSuccess2 is failed.
+[ERROR] 20-07-2023 00:11:24 [TestNG-PoolService-1] LogUtils - Test case loginPageSuccess2 is failed.
+[ERROR] 20-07-2023 00:11:25 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: 
+[ERROR] 20-07-2023 00:11:25 [TestNG-PoolService-2] LogUtils - java.lang.AssertionError: 
+[INFO] 20-07-2023 00:11:37 [TestNG-PoolService-0] LogUtils - Test case loginPageSuccess2 is passed.
+[INFO] 20-07-2023 00:11:38 [main] LogUtils - End testing SeleniumTestNGParallel
+[ERROR] 20-07-2023 00:28:24 [main] LogUtils - Test case loginPageSuccess3 is failed.
+[ERROR] 20-07-2023 00:28:24 [main] LogUtils - java.lang.RuntimeException: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getCellType()" because "cell" is null
+[INFO] 20-07-2023 00:28:25 [main] LogUtils - End testing SeleniumTestNGParallel
+[ERROR] 20-07-2023 00:29:33 [main] LogUtils - Test case loginPageSuccess3 is failed.
+[ERROR] 20-07-2023 00:29:33 [main] LogUtils - java.lang.RuntimeException: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getCellType()" because "cell" is null
+[INFO] 20-07-2023 00:29:34 [main] LogUtils - End testing SeleniumTestNGParallel
+[INFO] 20-07-2023 00:30:23 [main] LogUtils - Running test case loginPageSuccess3
+[ERROR] 20-07-2023 00:30:26 [main] LogUtils - Test case loginPageSuccess3 is failed.
+[ERROR] 20-07-2023 00:30:27 [main] LogUtils - java.lang.AssertionError: 
+[INFO] 20-07-2023 00:30:29 [main] LogUtils - Running test case loginPageSuccess3
+[ERROR] 20-07-2023 00:30:31 [main] LogUtils - Test case loginPageSuccess3 is failed.
+[ERROR] 20-07-2023 00:30:31 [main] LogUtils - java.lang.AssertionError: 
+[INFO] 20-07-2023 00:30:32 [main] LogUtils - End testing SeleniumTestNGParallel
+[INFO] 20-07-2023 00:31:20 [main] LogUtils - Running test case loginPageSuccess3
+[INFO] 20-07-2023 00:31:35 [main] LogUtils - Test case loginPageSuccess3 is passed.
+[INFO] 20-07-2023 00:31:37 [main] LogUtils - Running test case loginPageSuccess3
+[ERROR] 20-07-2023 00:31:39 [main] LogUtils - Test case loginPageSuccess3 is failed.
+[ERROR] 20-07-2023 00:31:39 [main] LogUtils - java.lang.AssertionError: 
+[INFO] 20-07-2023 00:31:41 [main] LogUtils - End testing SeleniumTestNGParallel
+[INFO] 20-07-2023 00:32:52 [TestNG-PoolService-0] LogUtils - Running test case loginPageSuccess3
+[INFO] 20-07-2023 00:32:52 [TestNG-PoolService-1] LogUtils - Running test case loginPageSuccess3
+[INFO] 20-07-2023 00:33:08 [TestNG-PoolService-0] LogUtils - Test case loginPageSuccess3 is passed.
+[INFO] 20-07-2023 00:33:09 [TestNG-PoolService-1] LogUtils - Test case loginPageSuccess3 is passed.
+[INFO] 20-07-2023 00:33:09 [main] LogUtils - End testing SeleniumTestNGParallel
+[INFO] 24-07-2023 22:30:08 [TestNG-test=Login Test on Chrome-2] LogUtils - Running test case loginPageSuccess1
+[INFO] 24-07-2023 22:30:08 [TestNG-test=Login Test on Chrome-1] LogUtils - Running test case loginPageSuccess
+[INFO] 24-07-2023 22:30:08 [TestNG-PoolService-2] LogUtils - Running test case loginPageSuccess2
+[INFO] 24-07-2023 22:30:08 [TestNG-PoolService-0] LogUtils - Running test case loginPageSuccess2
+[INFO] 24-07-2023 22:30:08 [TestNG-PoolService-0] LogUtils - Running test case loginPageSuccess3
+[INFO] 24-07-2023 22:30:08 [TestNG-PoolService-1] LogUtils - Running test case loginPageSuccess2
+[INFO] 24-07-2023 22:30:08 [TestNG-PoolService-1] LogUtils - Running test case loginPageSuccess3
+[INFO] 24-07-2023 22:30:09 [TestNG-test=Login Test on Chrome-2] LogUtils - PhÃºc
+[INFO] 24-07-2023 22:30:09 [TestNG-test=Login Test on Chrome-1] LogUtils - PhÃºc
+[ERROR] 24-07-2023 22:30:15 [TestNG-PoolService-1] LogUtils - Test case loginPageSuccess2 is failed.
+[ERROR] 24-07-2023 22:30:15 [TestNG-PoolService-2] LogUtils - Test case loginPageSuccess2 is failed.
+[ERROR] 24-07-2023 22:30:16 [TestNG-PoolService-2] LogUtils - java.lang.AssertionError: 
+[ERROR] 24-07-2023 22:30:16 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: 
+[INFO] 24-07-2023 22:30:29 [TestNG-PoolService-1] LogUtils - Test case loginPageSuccess3 is passed.
+[INFO] 24-07-2023 22:30:29 [TestNG-PoolService-0] LogUtils - Test case loginPageSuccess2 is passed.
+[INFO] 24-07-2023 22:30:30 [TestNG-test=Login Test on Chrome-2] LogUtils - Test case loginPageSuccess1 is passed.
+[INFO] 24-07-2023 22:30:30 [TestNG-test=Login Test on Chrome-1] LogUtils - Test case loginPageSuccess is passed.
+[INFO] 24-07-2023 22:31:07 [TestNG-PoolService-0] LogUtils - Test case loginPageSuccess3 is passed.
+[INFO] 24-07-2023 22:31:07 [main] LogUtils - End testing Login Test on Chrome
+[INFO] 24-07-2023 22:31:52 [TestNG-PoolService-0] LogUtils - Running test case loginPageSuccess2
+[INFO] 24-07-2023 22:31:52 [TestNG-PoolService-2] LogUtils - Running test case loginPageSuccess2
+[INFO] 24-07-2023 22:31:52 [TestNG-PoolService-1] LogUtils - Running test case loginPageSuccess3
+[INFO] 24-07-2023 22:31:52 [TestNG-PoolService-1] LogUtils - Running test case loginPageSuccess2
+[INFO] 24-07-2023 22:31:52 [TestNG-PoolService-0] LogUtils - Running test case loginPageSuccess3
+[ERROR] 24-07-2023 22:31:57 [TestNG-PoolService-2] LogUtils - Test case loginPageSuccess2 is failed.
+[ERROR] 24-07-2023 22:31:57 [TestNG-PoolService-1] LogUtils - Test case loginPageSuccess2 is failed.
+[ERROR] 24-07-2023 22:31:57 [TestNG-PoolService-2] LogUtils - java.lang.AssertionError: 
+[ERROR] 24-07-2023 22:31:57 [TestNG-PoolService-1] LogUtils - java.lang.AssertionError: 
+[INFO] 24-07-2023 22:32:09 [TestNG-PoolService-0] LogUtils - Test case loginPageSuccess2 is passed.
+[INFO] 24-07-2023 22:32:09 [TestNG-PoolService-1] LogUtils - Test case loginPageSuccess3 is passed.
+[INFO] 24-07-2023 22:32:10 [TestNG-PoolService-0] LogUtils - Test case loginPageSuccess3 is passed.
+[INFO] 24-07-2023 22:32:11 [main] LogUtils - End testing Login Test on Chrome
+[INFO] 24-07-2023 22:39:22 [TestNG-test=Login Test on Chrome-1] LogUtils - Running test case loginPageSuccess
+[INFO] 24-07-2023 22:39:23 [TestNG-test=Login Test on Chrome-1] LogUtils - PhÃºc
+[INFO] 24-07-2023 22:39:38 [TestNG-test=Login Test on Chrome-1] LogUtils - Test case loginPageSuccess is passed.
+[INFO] 24-07-2023 22:39:39 [main] LogUtils - End testing Login Test on Chrome
+[INFO] 25-07-2023 00:13:09 [TestNG-test=Login Test on Chrome-1] LogUtils - Running test case loginPageEmailInvalid
+[INFO] 25-07-2023 00:13:10 [TestNG-test=Login Test on Chrome-1] LogUtils - Phúc
+[INFO] 25-07-2023 00:13:14 [TestNG-test=Login Test on Chrome-1] LogUtils - Test case loginPageEmailInvalid is passed.
+[INFO] 25-07-2023 00:13:15 [main] LogUtils - End testing Login Test on Chrome
+[INFO] 25-07-2023 00:17:18 [TestNG-test=Login Test on Chrome-1] LogUtils - Running test case loginPageSuccess
+[INFO] 25-07-2023 00:17:19 [TestNG-test=Login Test on Chrome-1] LogUtils - Phúc
+[ERROR] 25-07-2023 00:17:25 [TestNG-test=Login Test on Chrome-1] LogUtils - Test case loginPageSuccess is failed.
+[ERROR] 25-07-2023 00:17:25 [TestNG-test=Login Test on Chrome-1] LogUtils - java.lang.AssertionError: 
+[INFO] 25-07-2023 00:17:27 [main] LogUtils - End testing Login Test on Chrome
+[INFO] 25-07-2023 00:18:35 [TestNG-test=Login Test on Chrome-1] LogUtils - Running test case loginPageSuccess
+[INFO] 25-07-2023 00:18:36 [TestNG-test=Login Test on Chrome-1] LogUtils - Phúc
+[ERROR] 25-07-2023 00:18:40 [TestNG-test=Login Test on Chrome-1] LogUtils - Test case loginPageSuccess is failed.
+[ERROR] 25-07-2023 00:18:40 [TestNG-test=Login Test on Chrome-1] LogUtils - java.lang.AssertionError: 
+[INFO] 25-07-2023 00:18:41 [main] LogUtils - End testing Login Test on Chrome
