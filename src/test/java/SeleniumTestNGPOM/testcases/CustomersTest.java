@@ -19,7 +19,7 @@ public class CustomersTest extends BaseTest {
     @Test
     public void addNewCustomer(){
         CaptureHelpers.startRecord("addNewCustomer");
-        String CUSTOMER_NAME = "Lien";
+        String CUSTOMER_NAME = "QQQQQ";
         loginPage = new LoginPage();
         dashboardPage = loginPage.pageLoginSuccess("admin@example.com","123456");
         customersPage = dashboardPage.openCustomerPage();

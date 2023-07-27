@@ -5,50 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53b9c481-a48f-49a9-8bc2-2eb5251dd627" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/dataproviders/DataLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/TestDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/HandleUploadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/app-properties.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app-properties.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/extentreport/extentreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentreport/extentreport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/keyword/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keyword/WebUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reports/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reports/ExtentReportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test-suites/LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test-suites/LoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/common/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/datatest/Crm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datatest/Crm.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0e8f2128-88a4-43a8-98ec-72f38105611f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/39c8148c-eb27-48a4-b833-3c57fa120dfc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3fabc784-4c02-4eb1-b724-7f452c36b730-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5208f3b9-dafb-47d2-afba-39660a6f9781-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/83adc47d-d385-412d-ae4a-e974ade07ab5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8b047ae9-0588-4410-a064-7bac1019a415-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a837813b-8310-4ae2-b336-23ea23c68053-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c3e93c91-8f5b-427e-8546-a140960a3394-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e1980d05-95c8-4e6a-901e-6c722c2daa2e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-07-17T23-25-38_908.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Login test chorme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Login test chorme.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SeleniumTestNGPOM.testcases.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SeleniumTestNGPOM.testcases.LoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/Login test chorme.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/datatest/Crm.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/CustomersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestNGPOM/testcases/CustomersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/CustomersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTestNGPOM/testcases/CustomersTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,18 +46,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AnhTester/SeleniumTestNGParallel&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.16639479&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/AnhTester/SeleniumMaven42022Parallel",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.16639479"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AnhTester\SeleniumTestNGParallel\src\test\resources\configs" />
@@ -105,11 +68,46 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/AnhTester/SeleniumTestNGParallel/src/test-suites/LoginTest.xml">
+  <component name="RunManager" selected="TestNG.HandleUploadFile.testUploadFile2">
+    <configuration name="CustomersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.CustomersTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/AnhTester/SeleniumTestNGParallel/src/test-suites/LoginTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test-suites/LoginTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandleUploadFile.testUploadFile2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.HandleUploadFile" />
+      <option name="METHOD_NAME" value="testUploadFile2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,48 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.TestDataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDataProvider.testLoginCRM" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTestNGPOM.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTestNGPOM.testcases" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestNGPOM.testcases.TestDataProvider" />
-      <option name="METHOD_NAME" value="testLoginCRM" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HandleUploadFile.testUploadFile2" />
+        <item itemvalue="TestNG.CustomersTest" />
         <item itemvalue="TestNG.D:/AnhTester/SeleniumTestNGParallel/src/test-suites/LoginTest.xml" />
         <item itemvalue="TestNG.LoginTest.loginPageSuccess3" />
         <item itemvalue="TestNG.LoginTest.loginPageSuccess2" />
-        <item itemvalue="TestNG.TestDataProvider.testLoginCRM" />
-        <item itemvalue="TestNG.TestDataProvider" />
       </list>
     </recent_temporary>
   </component>

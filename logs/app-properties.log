@@ -208,3 +208,9 @@ Session ID: c2b95e513694682a09906e79ecc6e3b9
 [ERROR] 25-07-2023 00:18:40 [TestNG-test=Login Test on Chrome-1] LogUtils - Test case loginPageSuccess is failed.
 [ERROR] 25-07-2023 00:18:40 [TestNG-test=Login Test on Chrome-1] LogUtils - java.lang.AssertionError: 
 [INFO] 25-07-2023 00:18:41 [main] LogUtils - End testing Login Test on Chrome
+[INFO] 25-07-2023 23:14:44 [main] LogUtils - Running test case addNewCustomer
+[INFO] 25-07-2023 23:15:21 [main] LogUtils - Test case addNewCustomer is passed.
+[INFO] 25-07-2023 23:15:22 [main] LogUtils - End testing SeleniumTestNGParallel
+[INFO] 26-07-2023 15:42:37 [main] LogUtils - Running test case testUploadFile2
+[INFO] 26-07-2023 15:42:49 [main] LogUtils - Test case testUploadFile2 is passed.
+[INFO] 26-07-2023 15:42:50 [main] LogUtils - End testing SeleniumTestNGParallel

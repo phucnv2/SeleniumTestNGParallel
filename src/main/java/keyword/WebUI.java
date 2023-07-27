@@ -4,6 +4,7 @@ import com.aventstack.extentreports.Status;
 import com.ibm.icu.impl.Assert;
 import drivers.DriverManager;
 import io.appium.java_client.functions.ExpectedCondition;
+import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
@@ -50,13 +51,14 @@ public class WebUI {
         System.out.println(message);
     }
 
+    @Step("Mở URL: {0}")
     public static void openURL(String URL) {
         getDriver().get(URL);
         waitForPageLoaded();
         logConsole("Mở URL" + URL);
         ExtentTestManager.logMessage(Status.PASS,"Mở URL: " + URL);
     }
-
+    @Step("Lấy URL: {0}")
     public static String getCurrentUrl() {
         waitForPageLoaded();
         logConsole("Lấy URL" + getDriver().getCurrentUrl());
@@ -68,7 +70,7 @@ public class WebUI {
     public static WebElement getWebElement(By by) {
         return getDriver().findElement(by);
     }
-
+    @Step("Click on element: {0}")
     public static void clickElement(By by) {
         waitForElementVisible(by);
         highLightElement(by);
@@ -77,7 +79,7 @@ public class WebUI {
         ExtentTestManager.logMessage(Status.PASS,"Click on element: " + by);
 
     }
-
+    @Step("Set text {1} on element {0}")
     public static void senkeyText(By by, String value) {
         waitForElementVisible(by);
         getWebElement(by).sendKeys(value);
@@ -85,7 +87,7 @@ public class WebUI {
         ExtentTestManager.logMessage(Status.PASS,"Set text " + value + " on element " + by);
 
     }
-
+    @Step("Hiển thị text element: {0}")
     public static String getTextElement(By by) {
         waitForElementVisible(by);
         logConsole("Hiển thị text element " + by);
@@ -94,7 +96,7 @@ public class WebUI {
         ExtentTestManager.logMessage(Status.INFO,"=> Text: " + getWebElement(by).getText());
         return getWebElement(by).getText();
     }
-
+    @Step("Hiển thị giá trị {1} value of element {0}")
     public static String getAttribute(By by, String attributeName) {
         logConsole("Hiển thị giá trị element " + by);
         logConsole("=> Value: " + getWebElement(by).getAttribute(attributeName));
